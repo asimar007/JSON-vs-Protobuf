@@ -1,0 +1,139 @@
+syntax = "proto3";
+
+message User {
+  string id = 1;
+  string name = 2;
+  int32 age = 3;
+  string email = 4;
+  string address = 5;
+  double height = 6;
+  double weight = 7;
+  bool isActive = 8;
+  repeated string tags = 9;
+  int64 timestamp = 10;
+
+  // Add more fields to reach 110
+  string field11 = 11;
+  string field12 = 12;
+  string field13 = 13;
+  string field14 = 14;
+  string field15 = 15;
+  string field16 = 16;
+  string field17 = 17;
+  string field18 = 18;
+  string field19 = 19;
+  string field20 = 20;
+
+  int32 field21 = 21;
+  int32 field22 = 22;
+  int32 field23 = 23;
+  int32 field24 = 24;
+  int32 field25 = 25;
+
+  bool field26 = 26;
+  bool field27 = 27;
+  bool field28 = 28;
+
+  double field29 = 29;
+  double field30 = 30;
+
+  // Add similar fields until reaching 110
+  string field31 = 31;
+  string field32 = 32;
+  string field33 = 33;
+  string field34 = 34;
+  string field35 = 35;
+  string field36 = 36;
+  string field37 = 37;
+  string field38 = 38;
+  string field39 = 39;
+  string field40 = 40;
+
+  int64 field41 = 41;
+  int64 field42 = 42;
+  int64 field43 = 43;
+  int64 field44 = 44;
+
+  float field45 = 45;
+  float field46 = 46;
+  float field47 = 47;
+  float field48 = 48;
+
+  string field49 = 49;
+  string field50 = 50;
+  string field51 = 51;
+  string field52 = 52;
+  string field53 = 53;
+  string field54 = 54;
+  string field55 = 55;
+
+  // Continue adding fields for variety and different types
+  string field56 = 56;
+  string field57 = 57;
+  string field58 = 58;
+  string field59 = 59;
+  string field60 = 60;
+
+  repeated int32 field61 = 61;
+  repeated int64 field62 = 62;
+  repeated string field63 = 63;
+  repeated float field64 = 64;
+  repeated double field65 = 65;
+
+  string field66 = 66;
+  string field67 = 67;
+  string field68 = 68;
+  string field69 = 69;
+  string field70 = 70;
+
+  int32 field71 = 71;
+  int32 field72 = 72;
+  int32 field73 = 73;
+  int32 field74 = 74;
+  int32 field75 = 75;
+
+  bool field76 = 76;
+  bool field77 = 77;
+  bool field78 = 78;
+
+  double field79 = 79;
+  double field80 = 80;
+
+  string field81 = 81;
+  string field82 = 82;
+  string field83 = 83;
+  string field84 = 84;
+  string field85 = 85;
+
+  string field86 = 86;
+  string field87 = 87;
+  string field88 = 88;
+  string field89 = 89;
+  string field90 = 90;
+
+  int64 field91 = 91;
+  int64 field92 = 92;
+  int64 field93 = 93;
+  int64 field94 = 94;
+
+  float field95 = 95;
+  float field96 = 96;
+  float field97 = 97;
+  float field98 = 98;
+
+  string field99 = 99;
+  string field100 = 100;
+  string field101 = 101;
+  string field102 = 102;
+  string field103 = 103;
+  string field104 = 104;
+  string field105 = 105;
+  string field106 = 106;
+  string field107 = 107;
+  string field108 = 108;
+  string field109 = 109;
+  string field110 = 110;
+}
+message UserList {
+    repeated User users = 1;
+  }
